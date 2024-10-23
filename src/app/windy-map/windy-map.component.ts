@@ -45,9 +45,9 @@ export class WindyMapComponent implements OnInit, AfterViewInit {
     const options = {
       key: 'N6y5L7Sz33b3VWOZegWfuP6Tjj12IRy6', // Replace with your actual API key
       verbose: true,
-      lat: 50.4,
-      lon: 14.3,
-      zoom: 5,
+      lat: -37.8136,
+      lon: 144.9631,
+      zoom: 10,
     };
 
     windyInit(options, (windyAPI: any) => {
